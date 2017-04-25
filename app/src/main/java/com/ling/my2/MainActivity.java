@@ -23,11 +23,12 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        Button onc = (Button)findViewById(R.id.onc);
+        Button onc = (Button) findViewById(R.id.onc);
         onc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                //写一篇文章就是舒服
+                //第二次写文文
             }
         });
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
