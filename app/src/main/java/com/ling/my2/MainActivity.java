@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "d", Toast.LENGTH_SHORT).show();
                 //nihaola
+                //写一篇文章就是舒服
+                //第二次写文文
+                //第三次写代码
             }
         });
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
